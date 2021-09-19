@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(23, 22, 24);
+    color: whitesmoke;
+    text-align: center;
+    padding: 8px 15px 14px 15px;
+    font-family: 'knewave', cursive;
+    letter-spacing: 0.2em;
+    font-size: 2.4em;
+}
+
+body {
+    background-image: url(./assets/monkey-4136775_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+.frame {
+    background: #ffffff;
+    height: 250px;
+    width: 200px;
+    display: inline-block;
+    margin: 55px 75px 30px;
+    padding: 15px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
+    border-radius: 2px;
+  }
+
+  .frame:after {
+    color: #333;
+    font-size: 25px;
+    content: attr(title);
+    position: relative;
+    top: 15px;
+  }
+
+ 
+  .frame:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  }
+
+  .photo {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 5px auto;
+    background-color: darkgrey;
+    z-index: 20;
+  }
+
+  #pic1 {
+      transform: rotate(-10deg);
+  }
+    
+
