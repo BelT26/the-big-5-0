@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+  background: url(../images/beer.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 8px 15px 14px 15px;
+    position: sticky;
+    
+}
+
+header h1 {
+  font-family: 'knewave', cursive;
+  letter-spacing: 0.2em;
+  font-size: 3rem;
+  font-weight: 900;
+
+}
+
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: fixed;
+  }
+
+
+
+
+.countdown {
+  text-align: center;
+  margin: 10px auto;
+}
+
+
+.count {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 5px;
+  font-family: 'Orbitron', sans-serif;
+  color: whitesmoke;
+  font-size: 2.5rem;
+}
+
+#invite-map {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+#invitation-text {
+  display: inline-block;
+  background-color: whitesmoke;
+  width: 400px;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.invite-words, .invite-header, .invite-kick {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+
+.shirt-container {
+  text-align: center;
+  height: 240px !important;
+}
+
+.tshirt {
+  height: 200px;
+  display: inline-block;
+  margin: 0px auto;   
+}
+
+#map {
+  display: inline-block;
+  width: 400px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+#map img {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+}
+
+.container {
+  width: 50% !important;
+  margin: 0 auto;
+  position: relative;
+  top: 80px;
+  text-align: center;
+  background-color: whitesmoke;
+  padding-bottom: 20px;
+
+}
+
+.photo {
+  width:420px !important;
+  height: 450px !important;
+  margin: 15px auto;
+}
+
+.caption {
+  font-family: 'Just Me Again Down Here', cursive;
+  font-size: 2rem !important;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: black;
+  color: whitesmoke;
+  margin: 10px auto 2px;
+  
+}
+
+.btn a {
+  color: goldenrod;
+}
+
+.btn a:hover {
+  color:whitesmoke;
+}
+
+@media only screen and (max-width: 600px) {
+
+  header h1 {
+    font-size: 2rem !important;
+  }
+
+  .container {
+    width: 90% !important;
+    top: 20px;
+  }
+
+  .photo {
+    width:300px !important;
+    height: 320px !important;
+    margin: 15px auto;
+  }
+
+  .count {
+    font-size: 0.9rem;
+    padding: 2px;
+    margin: 5px 0px;
+  }
+
+s
+}
