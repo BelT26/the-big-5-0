@@ -70,13 +70,22 @@ footer {
   
 }
 
+#text-box {
+  text-align: center;
+}
+
+#text-box h5 {
+  margin-bottom: 20px;
+}
+
 #invitation-text {
   display: inline-block;
   background-color: whitesmoke;
-  width: 400px;
-  margin: 20px;
-  border-radius: 10px;
+  margin: 20px auto;
+  border-radius: 5px;
   padding: 20px;
+  width: 90%;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .invite-words, .invite-header, .invite-kick {
@@ -96,18 +105,35 @@ footer {
   margin: 0px auto;   
 }
 
-#map {
-  display: inline-block;
-  width: 400px;
-  margin: 20px;
-  border-radius: 10px;
+.neil-history {
+  margin: 20px auto;
+  border-radius: 5px;
   background-color: whitesmoke;
   text-align: center;
+  width: 90%;
+  padding: 15px;
+  box-shadow: 10px 10px 5px grey;
 }
 
-#map img {
-  width: 320px;
-  margin: 0 auto;
+#map {
+  display: inline-block;
+  margin: 20px auto 60px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  text-align: center;
+  width: 90%;
+  box-shadow: 10px 10px 5px grey;
+}
+
+
+
+.pub-link {
+  color: black;
+  text-decoration: underline;
+}
+
+.pub-link:hover {
+  color: darkgoldenrod
 }
 
 .gallery {
@@ -167,6 +193,7 @@ footer {
   .container {
     width: 90% !important;
     top: 20px;
+    box-shadow: 10px 10px 5px grey;
   }
 
   .photo {
@@ -180,6 +207,4 @@ footer {
     padding: 2px;
     margin: 5px 0px;
   }
-
-s
 }
