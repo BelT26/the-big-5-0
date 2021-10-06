@@ -10,7 +10,7 @@
 }
 
 body { 
-  background: url(../images/beer.jpg) no-repeat center center fixed; 
+  background: url(../images/beer-253791_1920.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -31,6 +31,7 @@ header h1 {
   letter-spacing: 0.2em;
   font-size: 3rem;
   font-weight: 900;
+  
 
 }
 
@@ -44,9 +45,6 @@ footer {
   text-align: center;
   position: fixed;
   }
-
-
-
 
 .countdown {
   text-align: center;
@@ -70,22 +68,24 @@ footer {
   
 }
 
-#text-box {
+#invite-col {
   text-align: center;
+  margin: 20px auto;
 }
 
 #text-box h5 {
   margin-bottom: 20px;
 }
 
-#invitation-text {
+#text-box {
   display: inline-block;
-  background-color: whitesmoke;
-  margin: 20px auto;
+  background-color: white;
+  text-align: center;
+  margin: 15px auto;
   border-radius: 5px;
   padding: 20px;
   width: 90%;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .invite-words, .invite-header, .invite-kick {
@@ -108,21 +108,25 @@ footer {
 .neil-history {
   margin: 20px auto;
   border-radius: 5px;
-  background-color: whitesmoke;
+  background-color: white;
   text-align: center;
   width: 90%;
   padding: 15px;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #map {
   display: inline-block;
   margin: 20px auto 60px;
   border-radius: 5px;
-  background-color: whitesmoke;
+  background-color: white;
   text-align: center;
   width: 90%;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#map-img {
+  width: 280px;
 }
 
 
@@ -150,10 +154,11 @@ footer {
   width: 50% !important;
   margin: 0 auto;
   position: relative;
-  top: 80px;
+  top: 40px;
   text-align: center;
   background-color: whitesmoke;
   padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -184,16 +189,71 @@ footer {
   color:whitesmoke;
 }
 
+.hide {
+  display: none !important;
+}
+
+@media only screen and (min-width: 992px) {
+
+  #invite-map {
+    margin: 50px auto;
+    flex-direction: row-reverse;
+  }
+
+  #invite-col {    
+    text-align: center;
+    width: 40%;
+  }
+  
+    
+  #text-box {
+    padding: 40px;
+    font-size: large;
+  }
+  
+    
+  .shirt-container {
+    text-align: center;
+    height: 300px !important;
+  }
+  
+  .tshirt {
+    height: 260px;
+    display: inline-block;
+    margin: 0px auto;   
+  }
+  
+    
+  #map {
+    display: inline-block;
+    margin: 20px auto 60px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .neil-history {
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px;
+  }
+
+    
+}
+
 @media only screen and (max-width: 600px) {
 
   header h1 {
-    font-size: 2rem !important;
+    font-size: 1.9rem !important;
   }
 
   .container {
     width: 90% !important;
-    top: 20px;
-    box-shadow: 10px 10px 5px grey;
+    top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .photo {
